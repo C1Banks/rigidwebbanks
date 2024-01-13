@@ -1,10 +1,14 @@
 import {motion} from 'framer-motion';
 import './App.css';
-import {PopAnimate, ProjectTwoPopAnimate} from './animations';
+import {SkillsSlideAnimate, ProjectTwoPopAnimate, ProjectOnePopAnimate} from './animations';
 import {SlideAnimate} from './animations';
-import {ProjectOnePopAnimate} from './animations';
-import PngItem from './images/PngItem.png';
+import  DropDownContact from './animations/dropDownContact.js';
+//import {ContactButton} from './animations';
 import dottedBackGround from './images/dottedBackGround.png';
+import GitHub from './images/GitHub.png';
+import linkedin from './images/linkedin.png';
+import pythoncode from './images/pythoncode.jpg';
+import openai from './images/openai.png';
 
 
 
@@ -20,7 +24,7 @@ function App() {
         
         <div className="App">
         
-        <div className ="header" >React App
+        <div className ="header" >
           <motion.div className='socialContainer'
               initial="hidden"
               whileInView="visible"
@@ -30,14 +34,22 @@ function App() {
                   hidden: { opacity: 0, scale: 0 }
              }}
             >
-            <div id = "socialElement">GH</div>
-            <div id='socialElement'>LN</div>
+            <a href = {'https://github.com/C1Banks'}id = "socialElement">
+              <img style = {{height:'3em', width:'3em'}}src={GitHub} alt = 'GH'>
+              </img>
+            </a>
+
+            <a id='socialElement'href={'https://www.linkedin.com/in/curtis-banks-aab900194/'}>
+              <img style = {{height:'3em', width:'3em'}}src= {linkedin} alt= 'LN'>
+              </img>
+            </a>
           </motion.div>
           <motion.div className = "resumeButton"
             initial={{ y:400 }}
             animate= {{y:0}}
             transition = {{duration: 1.2}}
-          > My resume</motion.div>
+            
+          > <span style={{fontFamily: 'Gill Sans', fontSize:'1.5em', background:'transparent'}}>My Resume</span></motion.div>
         </div>
         
         <SlideAnimate>
@@ -46,44 +58,52 @@ function App() {
             HI I'm Curtis
             <span style={{color: 'salmon'}}>.
             </span>
-          </h1>
+            </h1>
+            <p style={{fontFamily: 'gill sans', fontSize: "2em"}}>A specialized QA Engineer with the entangables of a Full-stack developer.<br/> 
+            I have a sound skillset in web development, with a strong interest in backend/ <br/>
+            Automation work. Currently looking to grow my skills in data automation.<br/> 
+            I look forward to connecting!  
+            </p>
+
+          
           
         </SlideAnimate>
-        <PopAnimate >
-          <div >Skills</div>
-        </PopAnimate>
+        <SkillsSlideAnimate >
+          <div >
+          <h2 style={{color:'salmon'}}> Tech Skills:</h2>AWS, Node, ReactJS, Python, Testing Automation
+          <h2 style={{color:'salmon'}}>Soft Skills:</h2> Team Player, Effective Communication, Creative Thinking,  
+          </div>
+        </SkillsSlideAnimate>
       
       <ProjectOnePopAnimate>
-        <div >
-          Project #1
-        </div>  
+        <img style= {{width : '50em', height: '28em'}}src={pythoncode} alt='' >
+          
+        </img>  
       </ProjectOnePopAnimate>
       
-        <div className = "projectOneDescript"align = "left">
+        <div className = "projectOneDescript"align = "left" style={{fontFamily: 'Gill Sans'}}>
           ProjectOneDescription
         </div>
       
       <ProjectTwoPopAnimate>
-        <div>Project #2</div>
+      <img style= {{width : '50em', height: '28em'}}src={openai} alt='' >
+          
+          </img> 
       </ProjectTwoPopAnimate>
       
-        <div className="projectTwoDescript"align = "right">
+        <div className="projectTwoDescript"align = "right" style={{fontFamily: 'Gill Sans'}}>
           ProjectTwoDescription
         </div>
 
-        <div className='contactInfoBox'>
+            
+        <div className = "contactInfoBox">
         <img src = {dottedBackGround} alt = '' ></img>
-          <div id='contactButton' style ={{fontFamily : "Gill Sans", fontSize: "2em"}}>Contact</div> 
-          <div id='contactCard'>
-            <h1 style = {{background:"#FAF9F6" ,fontFamily: "Gill Sans", fontSize: "2em", color:"#282c34"}}>
-              <span id ="makeItOrange">C</span>urtis  
-              <span id='makeItOrange'> B</span>anks</h1>
-            <img style={{background:"#FAF9F6"}} src={PngItem} alt = "_" width="200" height="10em"></img>
-            <h2 id='offWhiteBack'>Seattle, WA</h2>
-            <h2 id='offWhiteBack'>Email: Bankscur@gmail.com</h2>
-            <h2 id='offWhiteBack'>Phone: (602) 698-2978</h2>
 
-          </div>
+        <DropDownContact/>
+ 
+        
+
+
         </div>
 
     
