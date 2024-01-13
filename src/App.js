@@ -9,6 +9,7 @@ import GitHub from './images/GitHub.png';
 import linkedin from './images/linkedin.png';
 import pythoncode from './images/pythoncode.jpg';
 import openai from './images/openai.png';
+import ResumeButton from './animations/ResumeButton';
 
 
 
@@ -44,12 +45,9 @@ function App() {
               </img>
             </a>
           </motion.div>
-          <motion.div className = "resumeButton"
-            initial={{ y:400 }}
-            animate= {{y:0}}
-            transition = {{duration: 1.2}}
+
             
-          > <span style={{fontFamily: 'Gill Sans', fontSize:'1.5em', background:'transparent'}}>My Resume</span></motion.div>
+          <ResumeButton/>
         </div>
         
         <SlideAnimate>
@@ -82,7 +80,12 @@ function App() {
       </ProjectOnePopAnimate>
       
         <div className = "projectOneDescript"align = "left" style={{fontFamily: 'Gill Sans'}}>
-          ProjectOneDescription
+        <h1> POS Testing Automation</h1>
+          <p style={{fontSize:'1.3em'}}>
+            Enterprise level automation program entended to make POS validation less time consuming.  <br/>
+            Reading through the Json object for Keys and values. Initializing a new file, to build a report on the finding.
+            <br/> Written in Python the objective was to make shuffling through Big Data less challenging.  
+          </p>
         </div>
       
       <ProjectTwoPopAnimate>
@@ -91,8 +94,14 @@ function App() {
           </img> 
       </ProjectTwoPopAnimate>
       
-        <div className="projectTwoDescript"align = "right" style={{fontFamily: 'Gill Sans'}}>
-          ProjectTwoDescription
+        <div className="projectTwoDescript"align = "left" style={{fontFamily: 'Gill Sans'}}>
+          <h1>Tire Fitting Shop</h1>
+          <p style={{fontSize:'1.3em'}}>Insperation behind this project came from a desire to make every day car issues<br/>
+          easier to deal with. <br/>
+          Built in ReactJS, using node and OpenAI.  A prewitten prompt is intended to ask the <br/>
+          AI what size tire fits 'x' car. The user then fills in the form of 'x' car; with a Year, Make and Model.<br/>
+          These values are concatenated with the prompt and sent through the API_KEY. Upon Submission<br/>
+          the AI responds with a accurate Tire Size in the response field.</p>
         </div>
 
             
