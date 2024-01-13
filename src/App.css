@@ -1,7 +1,7 @@
 *{
   background-color: #282c34;
   color:#FAF9F6;
-  border-radius:3px;
+  border-radius:4px;
 }
 .App {
   text-align: center;
@@ -49,28 +49,30 @@ position:relative;
 }
 
 .socialContainer{
-  height: auto;
-  gap: 2em;
-  width: 10em;
+
+  height: 4em;
+  
+  width: 15em;
   
 }
 #socialElement{
-  border:solid #FAF9F6 2px;
+  border:solid #FAF9F6 1px;
   display: inline-block;
-  height: 2em;
-  width: 2em;
+  height: 3em;
+  width: 3em;
   margin-left:2em;
   
 }
 
 
 .resumeButton{
+  border:solid black 1px;
   background: salmon;
   height: 2em;
   width:9em;
   position: absolute;
-  padding: 1em 0em 0em 0em;
-  right:1em;
+  padding: .5em 0em .5em 0em;
+  right:5em;
   
 
 }
@@ -78,11 +80,13 @@ position:relative;
 .skillsContainer{
 border:solid #FAF9F6 2px;
 width:100%;
-height: 10em;
-margin: 0em 0em 30em 0em;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+height: 15em;
+margin: 0em 0em 20em 0em;
 grid-column: 1/4;
 grid-row: 3;
 text-align: center;
+font-size: 2em;
 }
 
 .projectOneContainer{
@@ -94,6 +98,11 @@ text-align: center;
   height: 28em;
   width: 50em;
 }
+
+
+
+
+
 .projectOneDescript{
   grid-column: 3;
   grid-row: 4;
@@ -129,12 +138,12 @@ text-align: center;
   grid-column:1/4;
   grid-row: 6;
 }
-#contactButton{
+
+.button #contactButton{
   position: relative;
-  background-color: salmon;
-  left:41%;
+  left:40.5%;
   height:auto;
-  width:5em;
+  width:8em;
   margin:1em 0em 0em 5em;
   
 }
@@ -143,7 +152,7 @@ text-align: center;
 
 
 #contactCard{
-  border: solid #FAF9F6 2px;
+  border: solid black 2px;
   background-color: #FAF9F6;
   height:16em;
   width: 25em;
@@ -151,11 +160,11 @@ text-align: center;
   left:43%;
   margin:5em 0em 0em 0em;
   z-index: 1em;
-  
-  
 }
 
   
+
+
 
 
 #makeItOrange{
@@ -166,6 +175,7 @@ text-align: center;
 #offWhiteBack{
   background-color: #FAF9F6;
   color: #282c34;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
