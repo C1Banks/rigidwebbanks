@@ -110,8 +110,7 @@ function ContactCard ({children}){
       
       <motion.div 
       id='contactCard'
-      initial="hidden"
-      whileInView="visible"
+      
       viewport={{once: true}}
       transition={{duration: 1.2}}
       variants={{

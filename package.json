@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "www.rigidbanks.com",
+  "homepage": "https://c1banks.github.io/rigidwebbanks/",
   "eslintConfig": {
     "extends": [
       "react-app",
