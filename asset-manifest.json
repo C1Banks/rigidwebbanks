@@ -1,21 +1,15 @@
 {
   "files": {
-    "main.css": "/rigidwebbanks/static/css/main.9395d865.css",
-    "main.js": "/rigidwebbanks/static/js/main.19de519f.js",
-    "static/js/787.3d3ba25b.chunk.js": "/rigidwebbanks/static/js/787.3d3ba25b.chunk.js",
-    "static/media/openai.png": "/rigidwebbanks/static/media/openai.725aac1b393d21db2bb6.png",
-    "static/media/pythoncode.jpg": "/rigidwebbanks/static/media/pythoncode.f249e5757b912db6de16.jpg",
-    "static/media/GitHub.png": "/rigidwebbanks/static/media/GitHub.3b80acbf902bb0f7d476.png",
-    "static/media/linkedin.png": "/rigidwebbanks/static/media/linkedin.d2f1331938e273afca67.png",
-    "static/media/dottedBackGround.png": "/rigidwebbanks/static/media/dottedBackGround.161334c40ecc21794596.png",
-    "static/media/PngItem.png": "/rigidwebbanks/static/media/PngItem.b1b4f50ec905f2da3778.png",
-    "index.html": "/rigidwebbanks/index.html",
-    "main.9395d865.css.map": "/rigidwebbanks/static/css/main.9395d865.css.map",
-    "main.19de519f.js.map": "/rigidwebbanks/static/js/main.19de519f.js.map",
-    "787.3d3ba25b.chunk.js.map": "/rigidwebbanks/static/js/787.3d3ba25b.chunk.js.map"
+    "main.css": "/www.rigidbanks.com/static/css/main.b5702d01.css",
+    "main.js": "/www.rigidbanks.com/static/js/main.55e8cf20.js",
+    "static/js/787.3d3ba25b.chunk.js": "/www.rigidbanks.com/static/js/787.3d3ba25b.chunk.js",
+    "index.html": "/www.rigidbanks.com/index.html",
+    "main.b5702d01.css.map": "/www.rigidbanks.com/static/css/main.b5702d01.css.map",
+    "main.55e8cf20.js.map": "/www.rigidbanks.com/static/js/main.55e8cf20.js.map",
+    "787.3d3ba25b.chunk.js.map": "/www.rigidbanks.com/static/js/787.3d3ba25b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9395d865.css",
-    "static/js/main.19de519f.js"
+    "static/css/main.b5702d01.css",
+    "static/js/main.55e8cf20.js"
   ]
 }
