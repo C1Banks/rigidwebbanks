@@ -49,18 +49,20 @@ position:relative;
 }
 
 .socialContainer{
-
+  display: flex;
   height: 4em;
   
   width: 15em;
   
 }
 #socialElement{
+  position: relative;
+  align-self: center;
   border:solid #FAF9F6 1px;
   display: inline-block;
   height: 3em;
   width: 3em;
-  margin-left:2em;
+  margin:5em 0 0 5em;
   
 }
 
@@ -69,10 +71,12 @@ position:relative;
   border:solid black 1px;
   background: salmon;
   height: 2em;
-  width:9em;
+  width:7em;
   position: absolute;
-  padding: .5em 0em .5em 0em;
-  right:5em;
+  padding: .5em 0em 0 0em;
+  right:5em; 
+  font-Family: 'Gill Sans'; 
+  font-size: 1.5em;
   
 
 }

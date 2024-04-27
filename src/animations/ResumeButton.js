@@ -1,27 +1,37 @@
 import React from "react";
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 
-function ResumeButton ({onClick}){
-    const openResume = () => {
-        // Open the PDF in a new window or use any other method
-        window.open('../CurtisBanksResume.pdf', '_blank');
-      };
+function ResumeButton() {
+  const downloadResume = () => {
+    // Create a link element
+    const link = document.createElement('a');
+    // Set the href attribute to the path of the PDF file
+    link.href = '/CurtisBanksResume_.pdf';
+    // Set the download attribute to prompt the browser to download the file
+    link.download = 'CurtisBanksResume_.pdf';
+    // Append the link to the body
+    document.body.appendChild(link);
+    // Trigger a click event on the link to start the download
+    link.click();
+    // Remove the link from the body
+    document.body.removeChild(link);
+  };
 
-
-return (
+  return (
     <motion.div
       className="resumeButton"
       initial={{ y: 400 }}
       animate={{ y: 0 }}
       transition={{ duration: 1.2 }}
-      onClick={openResume}
+      onClick={downloadResume}
     >
-      <a href="../CurtisBanksResume.pdf" download style={{ textDecoration: 'none', fontFamily: 'Gill Sans', fontSize: '1.5em', background: 'transparent' }}>My Resume</a>
+      My Resume
     </motion.div>
   );
 }
 
 export default ResumeButton;
+
 
 
 

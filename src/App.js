@@ -57,9 +57,9 @@ function App() {
             <span style={{color: 'salmon'}}>.
             </span>
             </h1>
-            <p style={{fontFamily: 'gill sans', fontSize: "2em"}}>A specialized QA Engineer with the entangables of a Full-stack developer.<br/> 
-            I have a sound skillset in web development, with a strong interest in backend/ <br/>
-            Automation work. Currently looking to grow my skills in data automation.<br/> 
+            <p style={{fontFamily: 'gill sans', fontSize: "2em"}}>A Software Engineer driven by opportunities to improve systems and reduce drag.<br/> 
+            Having great organization and communication skills. I'm versed in Full-stack Development, software testing and CI/CD. <br/>
+            I have an ability to streamline operations and drive revenue through automation applications.<br/>
             I look forward to connecting!  
             </p>
 
@@ -68,8 +68,8 @@ function App() {
         </SlideAnimate>
         <SkillsSlideAnimate >
           <div >
-          <h2 style={{color:'salmon'}}> Tech Skills:</h2>AWS, Node, ReactJS, Python, Testing Automation
-          <h2 style={{color:'salmon'}}>Soft Skills:</h2> Team Player, Effective Communication, Creative Thinking,  
+          <h2 style={{color:'salmon'}}> Technical Skills:</h2>AWS, NodeJS, ReactJS, Python, SQL
+          <h2 style={{color:'salmon'}}>Soft Skills:</h2> Team Player, Effective Communication, Creative Thinker, Solution Orientated  
           </div>
         </SkillsSlideAnimate>
       
@@ -80,11 +80,12 @@ function App() {
       </ProjectOnePopAnimate>
       
         <div className = "projectOneDescript"align = "left" style={{fontFamily: 'Gill Sans'}}>
-        <h1> POS Testing Automation</h1>
+        <h1> Astro </h1>
           <p style={{fontSize:'1.3em'}}>
-            Enterprise level automation program entended to make POS validation less time consuming.  <br/>
-            Reading through the Json object for Keys and values. Initializing a new file, to build a report on the finding.
-            <br/> Written in Python the objective was to make shuffling through Big Data less challenging.  
+          Reporting software capable of generating reports from provided data, <br/>
+          streamlining the process by sanitizing HTML files and converting them into JSON format.<br/> 
+          Integrated ReactJS and SQLite to display data within the graphical user interface (GUI),<br/>
+           effectively replacing costly monthly services and resulting in significant cost savings for the company. 
           </p>
         </div>
       
