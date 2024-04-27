@@ -9,7 +9,8 @@ import GitHub from './images/GitHub.png';
 import linkedin from './images/linkedin.png';
 import pythoncode from './images/pythoncode.jpg';
 import openai from './images/openai.png';
-import ResumeButton from './animations/ResumeButton';
+//import ResumeButton from './animations/ResumeButton';
+import DropDownResume from './animations/ResumeButton.js';
 
 
 
@@ -47,7 +48,9 @@ function App() {
           </motion.div>
 
             
-          <ResumeButton/>
+          
+          
+
         </div>
         
         <SlideAnimate>
@@ -111,7 +114,7 @@ function App() {
 
         <DropDownContact/>
  
-        
+        <DropDownResume/>
 
 
         </div>

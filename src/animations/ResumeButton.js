@@ -1,7 +1,50 @@
 import React from "react";
-import { motion } from 'framer-motion';
+//import { motion } from 'framer-motion';
+//import {Document, PDFViewer} from "@react-pdf/renderer";
+import { ContactButton } from "./index";
+import {useState} from "react";
+import pdfFile from '../CurtisBanksResume_.pdf'
+import {Document, Page} from 'react-pdf';
 
-function ResumeButton() {
+
+
+const DropDownResume = () => {
+  const [showCard, setShowCard] = useState(false);
+  const [error, setError] = useState(null);
+
+
+  const handleClick = () =>{
+          console.log('click');
+          setShowCard(!showCard);
+    }
+
+  console.log('showCard:', showCard);
+  
+  
+    return(
+      <>
+      
+      <ContactButton onClick = {handleClick}>
+          <div style={{backgroundColor: "transparent"}} >Resume</div> 
+      </ContactButton>
+  
+    {showCard && (
+      <PDFViewer width={'100%'}height={'100%'}>
+                  {error ? (
+            <div>Error loading PDF file. Please try again later.</div>
+          ) : (
+            <Document file={pdfFile} onError={setError} />
+          )}
+      </PDFViewer>
+      )}
+      
+      
+  </>
+    
+    )}
+
+
+/*function ResumeButton() {
   const downloadResume = () => {
     // Create a link element
     const link = document.createElement('a');
@@ -29,8 +72,9 @@ function ResumeButton() {
     </motion.div>
   );
 }
+*/
+export default DropDownResume;
 
-export default ResumeButton;
 
 
 
