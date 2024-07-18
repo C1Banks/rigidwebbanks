@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/rigidwebbanks/static/css/main.95c93789.css",
-    "main.js": "/rigidwebbanks/static/js/main.4b0cf0cc.js",
+    "main.css": "/rigidwebbanks/static/css/main.74b05c59.css",
+    "main.js": "/rigidwebbanks/static/js/main.a9db5eab.js",
     "static/js/787.3d3ba25b.chunk.js": "/rigidwebbanks/static/js/787.3d3ba25b.chunk.js",
     "static/media/openai.png": "/rigidwebbanks/static/media/openai.725aac1b393d21db2bb6.png",
     "static/media/pythoncode.jpg": "/rigidwebbanks/static/media/pythoncode.f249e5757b912db6de16.jpg",
+    "static/media/CurtisBanksResume_.pdf": "/rigidwebbanks/static/media/CurtisBanksResume_.8594ca5b513087da8851.pdf",
     "static/media/GitHub.png": "/rigidwebbanks/static/media/GitHub.3b80acbf902bb0f7d476.png",
     "static/media/linkedin.png": "/rigidwebbanks/static/media/linkedin.d2f1331938e273afca67.png",
     "static/media/dottedBackGround.png": "/rigidwebbanks/static/media/dottedBackGround.161334c40ecc21794596.png",
     "static/media/PngItem.png": "/rigidwebbanks/static/media/PngItem.b1b4f50ec905f2da3778.png",
     "index.html": "/rigidwebbanks/index.html",
-    "main.95c93789.css.map": "/rigidwebbanks/static/css/main.95c93789.css.map",
-    "main.4b0cf0cc.js.map": "/rigidwebbanks/static/js/main.4b0cf0cc.js.map",
+    "main.74b05c59.css.map": "/rigidwebbanks/static/css/main.74b05c59.css.map",
+    "main.a9db5eab.js.map": "/rigidwebbanks/static/js/main.a9db5eab.js.map",
     "787.3d3ba25b.chunk.js.map": "/rigidwebbanks/static/js/787.3d3ba25b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95c93789.css",
-    "static/js/main.4b0cf0cc.js"
+    "static/css/main.74b05c59.css",
+    "static/js/main.a9db5eab.js"
   ]
 }
