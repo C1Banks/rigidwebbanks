@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rigidwebbanks/static/css/main.74b05c59.css",
+    "main.css": "/rigidwebbanks/static/css/main.b1f63dd7.css",
     "main.js": "/rigidwebbanks/static/js/main.a9db5eab.js",
     "static/js/787.3d3ba25b.chunk.js": "/rigidwebbanks/static/js/787.3d3ba25b.chunk.js",
     "static/media/openai.png": "/rigidwebbanks/static/media/openai.725aac1b393d21db2bb6.png",
@@ -11,12 +11,12 @@
     "static/media/dottedBackGround.png": "/rigidwebbanks/static/media/dottedBackGround.161334c40ecc21794596.png",
     "static/media/PngItem.png": "/rigidwebbanks/static/media/PngItem.b1b4f50ec905f2da3778.png",
     "index.html": "/rigidwebbanks/index.html",
-    "main.74b05c59.css.map": "/rigidwebbanks/static/css/main.74b05c59.css.map",
+    "main.b1f63dd7.css.map": "/rigidwebbanks/static/css/main.b1f63dd7.css.map",
     "main.a9db5eab.js.map": "/rigidwebbanks/static/js/main.a9db5eab.js.map",
     "787.3d3ba25b.chunk.js.map": "/rigidwebbanks/static/js/787.3d3ba25b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74b05c59.css",
+    "static/css/main.b1f63dd7.css",
     "static/js/main.a9db5eab.js"
   ]
 }
